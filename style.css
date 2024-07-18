@@ -246,6 +246,7 @@ div .viewbtn:hover{
         height: 300px;
     }
     .carousel-inner img{
+        width: 100%;
         height: fit-content;
     }
 }
@@ -259,6 +260,5 @@ div .viewbtn:hover{
 }
 #carousal-img1{
     height: fit-content;
-
 }
 
