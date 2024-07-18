@@ -67,6 +67,15 @@ ul li{
     #welcome h1{
         font-size:50px ;
     }
+    #cardimg1{
+        height: 300px;
+    }
+    #cardimg2{
+        height: 300px;
+    }
+    #cardimg3{
+        height: 300px;
+    }
 }
 #b1{
    width: 100%;
@@ -139,9 +148,33 @@ div .viewbtn:hover{
       height: 100%;
       border-radius: 10px;
 }
+.div1img{
+    border-radius: 10px;
+}
+#div2img{
+    border-radius: 10px;
+}
+#div3img{
+    border-radius: 10px;
+    height: 100%;
+}
+#img4{
+    border-radius: 10px;
+}
 .projectGdiv3{
     width: 60%;
     height: 15%;
+    background-color: rgba(0, 0, 0, 0.941);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}
+.projectGdiv4{
+    width: 60%;
+    height: 25%;
     background-color: rgba(0, 0, 0, 0.941);
     display: flex;
     align-items: center;
@@ -154,30 +187,67 @@ div .viewbtn:hover{
     position: absolute;
 }
 @media(max-width:600px){
+
+    #abImg{
+        margin-left: 30px;
+        height: 300px;
+        width: 300px;
+        margin-bottom: 100px;
+    }
+    #abimg1{
+        width: 310px;
+        height: 300px;
+        margin-bottom: 100px;
+
+    }
     .projectGdiv1{
        margin-bottom: 400px;
        
     }
     #div1img{
-        width: 100%;
+        width: 100px;
         margin-left: 20px;
+    }
+    .div1img{
+        width: 100px;
+        margin-left: 20px;
+    }
+    #imgdiv1{
+        width: 100px;
     }
     #div2img{
         margin-top: 40px;
         margin-left: 20px;
     }
+    #img4{
+        margin-left: 20px;
+    }
     .projectGdiv2{
         margin-left: 20px;
+        height: 30%;
     }
     #div3img{
         margin-top: 40px;
-        height: 100%;
         margin-left: 20px;
+        height: 385px;
     }
     .projectGdiv3{
         margin-left: 20px;
     }
-    
+    .projectGdiv4{
+        margin-left: 20px;
+    }
+    #footer-p{
+        text-align: center;
+        position: relative;
+        left: -25px;
+    }
+    .carousel-inner{
+        height: 300px;
+    }
+    .carousel-inner img{
+        height: fit-content;
+    }
 }
 .b-img1{
     display: flex;
@@ -187,3 +257,8 @@ div .viewbtn:hover{
 #footer-social{
     list-style: none;
 }
+#carousal-img1{
+    height: fit-content;
+
+}
+
